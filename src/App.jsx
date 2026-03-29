@@ -538,7 +538,7 @@ function Footer({ dark }) {
       <span style={{ fontFamily: "'Space Mono',monospace", fontWeight: 700, fontSize: "1rem", background: "linear-gradient(135deg,#14b8a6,#10b981)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>DataRushi.</span>
       <span style={{ fontFamily: "'Space Mono',monospace", fontSize: "0.68rem", color: muted, letterSpacing: "0.04em" }}>© {new Date().getFullYear()} Rushikesh Jawale. Crafted with ❤️ & ☕</span>
       <div style={{ display: "flex", gap: "1.25rem" }}>
-        {[{ label: "GitHub", href: "https://github.com/rushikeshjawale" }, { label: "LinkedIn", href: "https://linkedin.com/in/rushikeshjawale" }, { label: "Email", href: "mailto:rushikesh@datarushi.me" }].map((l) => (
+        {[{ label: "GitHub", href: "https://github.com/rishijawale" }, { label: "LinkedIn", href: "https://linkedin.com/in/rushikesh-jawale" }, { label: "Email", href: "mailto:rushikeshjawale2006@gmail.com" }].map((l) => (
           <a key={l.label} href={l.href} target="_blank" rel="noreferrer"
             style={{ fontFamily: "'Space Mono',monospace", fontSize: "0.68rem", color: text, textDecoration: "none", letterSpacing: "0.04em", transition: "color 0.2s" }}
             onMouseEnter={(e) => (e.target.style.color = "#14b8a6")}
