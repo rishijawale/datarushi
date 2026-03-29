@@ -48,28 +48,28 @@ const PROJECTS = [
     description: "Deep-dive EDA into customer purchase patterns, segmentation via K-Means clustering, and predictive churn modeling using Random Forest.",
     tags: ["Python", "Pandas", "Scikit-learn", "Seaborn"],
     icon: "👥", accent: "#14b8a6",
-    github: "https://github.com/rushikeshjawale", demo: "#",
+    github: "https://github.com/rishijawale", demo: "#",
   },
   {
     title: "Fraud Detection Analysis",
     description: "Built an end-to-end anomaly detection pipeline on imbalanced transaction data using SMOTE, XGBoost, and threshold optimization.",
     tags: ["Python", "XGBoost", "SMOTE", "Matplotlib"],
     icon: "🔍", accent: "#0891b2",
-    github: "https://github.com/rushikeshjawale", demo: "#",
+    github: "https://github.com/rishijawale", demo: "#",
   },
   {
     title: "Sales Dashboard",
     description: "Interactive Power BI dashboard with DAX measures tracking KPIs, revenue trends, regional breakdowns and YoY comparisons.",
     tags: ["Power BI", "DAX", "SQL", "Excel"],
     icon: "📊", accent: "#10b981",
-    github: "https://github.com/rushikeshjawale", demo: "#",
+    github: "https://github.com/rishijawale", demo: "#",
   },
   {
     title: "Data Cleaning Pipeline",
     description: "Automated ETL pipeline handling missing values, outlier detection, type coercion, and duplicate removal on real-world messy datasets.",
     tags: ["Python", "Pandas", "NumPy", "Regex"],
     icon: "🧹", accent: "#0d9488",
-    github: "https://github.com/rushikeshjawale", demo: "#",
+    github: "https://github.com/rishijawale", demo: "#",
   },
 ];
 
@@ -301,8 +301,12 @@ function About({ dark }) {
       <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "center" }} className="grid-responsive">
         <FadeIn>
           <div style={{ position: "relative", display: "flex", justifyContent: "center" }}>
-            <div style={{ width: "260px", height: "260px", borderRadius: "50%", background: "linear-gradient(135deg,#0d9488,#14b8a6,#10b981)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "7rem", position: "relative", boxShadow: "0 0 70px rgba(20,184,166,0.2)" }}>
-              👨‍💻
+            <div style={{ width: "260px", height: "260px", borderRadius: "50%", background: "linear-gradient(135deg,#0d9488,#14b8a6,#10b981)", display: "flex", alignItems: "center", justifyContent: "center", position: "relative", boxShadow: "0 0 70px rgba(20,184,166,0.2)", overflow: "hidden" }}>
+              <img
+                src="/profile.jpeg"
+                alt="Rushikesh profile"
+                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "50%" }}
+              />
               <div style={{ position: "absolute", inset: -12, borderRadius: "50%", border: "1px solid rgba(20,184,166,0.16)" }} />
               <div style={{ position: "absolute", inset: -26, borderRadius: "50%", border: "1px dashed rgba(20,184,166,0.09)" }} />
             </div>
@@ -327,7 +331,7 @@ function About({ dark }) {
             My goal is to join a forward-thinking team where I can apply data-driven thinking to real business problems — and keep growing every single day.
           </p>
           <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-            {["📍 Pune, India", "🎓 B.Sc. Data Science & AI", "🎯 Seeking Internship"].map((tag) => (
+            {["📍 Pune, India", "🎓 B.E AI & Data Science", "🎯 Seeking Internship"].map((tag) => (
               <span key={tag} style={{ fontFamily: "'Space Mono',monospace", fontSize: "0.71rem", padding: "6px 14px", borderRadius: "100px", background: "rgba(20,184,166,0.08)", border: "1px solid rgba(20,184,166,0.18)", color: "#5eead4", letterSpacing: "0.04em" }}>{tag}</span>
             ))}
           </div>
