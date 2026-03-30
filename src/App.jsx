@@ -74,7 +74,7 @@ const PROJECTS = [
 ];
 
 const TIMELINE = [
-  { year: "2024", title: "Started the Journey",      desc: "Enrolled in B.Sc. Data Science & AI program. Discovered a passion for turning raw data into meaningful stories.", icon: "🚀" },
+  { year: "2024", title: "Started the Journey",      desc: "Enrolled in B.E AI & Data Science . Discovered a passion for turning raw data into meaningful stories.", icon: "🚀" },
   { year: "2025", title: "Core Skills Built",         desc: "Mastered Python, Pandas, SQL, and NumPy. Completed 10+ guided projects and began independent EDA work.", icon: "⚡" },
   { year: "2025", title: "Machine Learning & Viz",    desc: "Deep-dived into ML algorithms, built Power BI dashboards, and earned certifications in Data Analytics.", icon: "🤖" },
   { year: "2026", title: "Portfolio & Real Projects", desc: "Built end-to-end data projects, launched datarushi.me, and actively seeking internship opportunities.", icon: "🎯" },
